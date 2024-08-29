@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Azul pastel */
+    color: #006400; /* Verde pastel */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #006400; /* Verde pastel */
+    color: #f0f8ff; /* Azul pastel */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.app {
+    background-color: #f0f8ff; /* Azul pastel */
+    border: 2px solid #006400; /* Verde pastel */
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.app h2, .app p {
+    margin-bottom: 10px;
+}
+
+.app button {
+    background-color: #006400; /* Verde pastel */
+    color: #f0f8ff; /* Azul pastel */
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.app button:hover {
+    background-color: #004d00; /* Verde pastel más oscuro */
+}
+
+.description {
+    text-align: center;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #006400; /* Verde pastel */
+    color: #f0f8ff; /* Azul pastel */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+}
+
+footer {
+    background-color: #006400; /* Verde pastel */
+    color: #f0f8ff; /* Azul pastel */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff; /* Blanco */
+}
